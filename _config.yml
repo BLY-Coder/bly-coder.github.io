@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Snowscan"
+  name             : "BLY"
   avatar           : "/assets/images/avatar.png"
   bio              : "Pentester, CTF player<br>HackTheBox ATeam"
-  location         : "Canada"
-  email            : "info@snowscan.io"
+  location         : "España"
+  email            : # "info@snowscan.io"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -114,19 +114,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "slemire"
+  github           : "bly-coder"
   gitlab           :
   google_plus      :
-  keybase          : "snowscan"
+  keybase          : "BLY"
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "bertrand-lorente-yañez-887a8318a"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "snowscan"
+  twitter          : "bertrandlorent9"
   vine             :
   weibo            :
   xing             :

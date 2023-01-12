@@ -1,7 +1,7 @@
 ---
 layout: single
 title: eWPT - Review
-excerpt: Esto es una review de la certificación de elearning security, donde os cuento mi experiencia.
+excerpt: Esto es una review de la certificación de Elearn Security, donde os cuento mi experiencia.
 date: 2023-01-12
 classes: wide
 header:

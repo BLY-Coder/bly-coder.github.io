@@ -5,7 +5,9 @@ excerpt: Esto es una review de la certificación de elearning security, donde os
 date: 2023-01-12
 classes: wide
 header:
-  teaser: /assets/images/htb-writeup-frolic/frolic_logo.png
+  teaser: /assets/images/ewpt-review/ewpt.png
+  teaser_home_page: true
+  icon: /assets/images/ewpt-review/ewpt.png
 categories:
   - infosec
 tags:  
@@ -17,7 +19,7 @@ tags:
 Hola a todos! Como anuncié hace unos dias por [**Twitter**](https://twitter.com/bertrandlorente) he aprobado el examen de [**eLearnSecurity Web application Penetration Tester**](https://elearnsecurity.com/product/ewpt-certification/)(eWPT) y hoy os vengo a contar mi experiencia, no quiero alargar mucho esta review debido a que ya hay muchas. 
 ¡Vamos a comentar lo importante!
 
-![ewpt cert](/assets/images/htb-writeup-frolic/frolic_logo.png)
+![](/assets/images/ewpt-review/ewpt.png)
 
 #### Aspectos básicos del examen.
 Lo primero que voy a comentar es... _"¿Cómo es el examen?"_ Bueno, esta certificación es de pentesting web por lo tanto en el examen tendremos que conseguir encontrar todas las vulnerabilidades posibles de una web más todos sus subdominios. El examen es totalmente práctico, te dan 7 días para encontrar todas las vulnerabilidades posibles y otros 7 días para crear un reporte que **recoja todo** lo encontrado anteriormente, es decir en total tienes **14 días**. 

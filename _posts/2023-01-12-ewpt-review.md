@@ -12,6 +12,7 @@ categories:
   - infosec
 tags:  
   - ctf
+  - certificates
 ---
 
 ## Mi Experiencia con el eWPT

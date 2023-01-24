@@ -20,7 +20,7 @@ tags:
 
 **¡Buenas!** Hoy estaremos resolviendo la máquina [DarkHole-2](https://www.vulnhub.com/entry/darkhole-2,740/) de la plataforma Vulnhub, comencemos... 
 
-### Enumeración.
+## Enumeración.
 
 Lo primero será lanzar un escaneo de puertos con nmap:
 
@@ -135,6 +135,8 @@ Vemos unas credenciales y un correo en texto plano
 
 - `lush@admin.com:321`
 
+## Explotación
+
 Si probamos a iniciar sesión con estos datos podremos a acceder a la aplicación web.
 En ella podremos actualizar nuestros datos de perfil. Si nos fijamos en la url podremos observar un parámetro **id** que es vulnerable a **SQLI error based**
 
@@ -204,6 +206,8 @@ Table: users
 Hemos extraído un usuario y contraseña de la tabla ssh de la base de datos DarkHole2:
 
 - **jehad:fool**
+
+## Privesc
 
 Con estos datos podemos iniciar sesión por SSH
 ```bash

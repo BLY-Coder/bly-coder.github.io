@@ -200,7 +200,7 @@ nginx      1/1     Running   0          163m
 
 En este caso hemos hecho uso de la función get pod para sacar información del nodo en ejecución. 
 
-![2023-02-16_21-00 1.png](/opt/bly-coder.github.io/assets/images/steamcloud/2023-02-16_21-00 1.png)
+![2023-02-16_21-00 1.png](/opt/bly-coder.github.io/assets/images/steamcloud/pods.png)
 La tercera linea nos indica que podemos obtener, crear y listar pods. El siguiente paso sera examinar un el POD nginx para saber que imagen usa, posteriormente esta será usada en la creación de un BAD POD.
 
 ```bash

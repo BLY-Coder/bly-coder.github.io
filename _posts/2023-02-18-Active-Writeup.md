@@ -1,22 +1,22 @@
-___
-layout: single                                                                                                                                                                               
-title: SteamCloud HTB - WriteUp                                                                                                                                                                  
-excerpt: WriteUp de la máquina SteamCloud de HTB.                                                                                                                                        
-date: 2023-02-16                                                                                                                                                                             
-classes: wide                                                                                                                                                                                
-header:                                                                                                                                                                                      
-  teaser: /assets/images/Active/Active.png                                                                                                                                           
-  teaser_home_page: true                                                                                                                                                                     
-  icon: /assets/images/Active/Active.png                                                                                                                                             
-categories:                                                                                                                                                                                  
-  - infosec                                                                                                                                                                                  
-tags:                                                                                                                                                                                        
+---
+layout: single
+title: Active HTB - WriteUp
+excerpt: WriteUp de la máquina Active de HTB.
+date: 2023-02-18
+classes: wide
+header:
+  teaser: /assets/images/Active/Active.png
+  teaser_home_page: true
+  icon: /assets/images/Active/Active.png
+categories:
+  - infosec
+tags:
   - ctf
   - Windows                                                                                                                                                                                 
   - Writeup                                                                                                                                                                                  
   - AD                                                                                                                                                                                     
   - SMB
---- 
+---
 
 ### Enumeración
 

@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "BLY"
   avatar           : "/assets/images/avatar.png"
-  bio              : "Pentester, CTF player<br>HackTheBox ATeam"
+  bio              : "Pentester, CTF player<br>HackTheBox<br>PentesterLab<br>THM"
   location         : "España"
   email            : # "info@snowscan.io"
   uri              :
@@ -126,7 +126,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "bertrandlorent9"
+  twitter          : "bertrandlorente"
   vine             :
   weibo            :
   xing             :

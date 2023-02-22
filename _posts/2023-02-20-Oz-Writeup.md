@@ -169,7 +169,8 @@ Si intento crear un ticket con el siguiente payload "{{7*7}}" obtengo 49
 Usare el siguiente payload para ver si tengo RCE. (El markdown me ha dado problemas y he tenido que usar una imagen)
 
 ![](/assets/images/Oz/image12.png)
-S
+
+
 La respuesta es la siguiente:
 
 ![](/assets/images/Oz/image8.png)

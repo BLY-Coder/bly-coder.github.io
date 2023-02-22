@@ -19,7 +19,6 @@ tags:
   - PasswordLeaked
 ---
 
-
 En el dia de hoy estaré resolviendo la máquina Validation de HTB.
 
 ### Enumaración Inicial.

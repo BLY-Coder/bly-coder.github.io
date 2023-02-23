@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1bc1637e8365fb3e",
+        "id": "7b66edbac50423d2",
         "type": "tabs",
         "children": [
           {
-            "id": "c1b6b8ae12d5e86f",
+            "id": "354d711640d32958",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,7 +138,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c1b6b8ae12d5e86f",
+  "active": "354d711640d32958",
   "lastOpenFiles": [
     "_posts/2023-02-23-Querier-WriteUp.md",
     "_posts/2023-02-22-Mantis-WriteUp.md",

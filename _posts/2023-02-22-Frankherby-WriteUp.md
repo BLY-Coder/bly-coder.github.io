@@ -200,7 +200,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 # Nmap done at Wed Feb 22 14:05:47 2023 -- 1 IP address (1 host up) scanned in 109.94 seconds
 ```
 
-Tiene bastantes puertos abiertos, entre ellos podemos ver una API de kubernetes y una API de minukube (no tenemos acceso anonimo a ninguna de estas dos). Ademas vemos dos aplicaciones web.
+Tiene bastantes puertos abiertos, entre ellos podemos ver una API de Kubernetes. Ademas vemos dos aplicaciones web.
 
 Un Rocket Chat (puerto 3000) que permite que nos registremos, si nos registramos podemos ver que se habla sobre un proyecto (una web) que esta desplegado en el puerto "31337"
 

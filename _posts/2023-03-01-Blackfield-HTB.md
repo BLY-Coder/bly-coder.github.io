@@ -21,7 +21,7 @@ tags:
   - Backup-Operators
 ---
 
-En el día de hoy estaremos resolviendo la máquina Knife de HackTheBox. Es una máquina Windows y su dirección IP es 10.10.10.192.
+En el día de hoy estaremos resolviendo la máquina Blacfield de HackTheBox. Es una máquina Windows y su dirección IP es 10.10.10.192.
 
 ### Índice
 

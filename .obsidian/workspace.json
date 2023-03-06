@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b66edbac50423d2",
+        "id": "888c8860b6759b76",
         "type": "tabs",
         "children": [
           {
-            "id": "354d711640d32958",
+            "id": "c1b518a5cd1be52d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md",
+                "file": "_posts/2023-03-06-WebHackingPlayground.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md",
+                "file": "_posts/2023-03-06-WebHackingPlayground.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md",
+                "file": "_posts/2023-03-06-WebHackingPlayground.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-02-23-Querier-WriteUp.md"
+                "file": "_posts/2023-03-06-WebHackingPlayground.md"
               }
             }
           }
@@ -146,17 +146,29 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "354d711640d32958",
+  "active": "c1b518a5cd1be52d",
   "lastOpenFiles": [
+    "assets/images/WebHackingPlayground/WebHackingPlayground.png",
+    "_posts/2023-03-05-Secret-HTB.md",
+    "_posts/2023-03-06-WebHackingPlayground.md",
+    "assets/images/WebHackingPlayground/img20.png",
+    "assets/images/WebHackingPlayground/img19.png",
+    "assets/images/WebHackingPlayground/img18.png",
+    "assets/images/WebHackingPlayground/img17.png",
+    "assets/images/WebHackingPlayground/img16.png",
+    "assets/images/WebHackingPlayground/img15.png",
+    "assets/images/WebHackingPlayground/img14.png",
+    "assets/images/WebHackingPlayground/img13.png",
+    "assets/images/WebHackingPlayground/img12.png",
+    "assets/images/WebHackingPlayground/img11.png",
+    "assets/images/WebHackingPlayground/img3.png.md",
+    "assets/images/WebHackingPlayground",
+    "assets/images/New Folder",
     "_posts/2023-02-23-Querier-WriteUp.md",
     "_posts/2023-02-22-Mantis-WriteUp.md",
-    "assets/images/Querier/Querier.png",
     "_posts/2023-02-20-Validation-HTB.md",
     "_posts/2023-02-22-Frankherby-WriteUp.md",
-    "assets/images/Querier/image1.png",
     "assets/images/Querier",
-    "assets/images/New Folder",
-    "_posts/Untitled.md",
     "_posts/2023-02-23-Tentacle-WriteUp.md",
     "_posts/2023-02-19-Europa-WriteUp.md",
     "_posts/2023-02-19-Dev0ops-WriteUp.md",

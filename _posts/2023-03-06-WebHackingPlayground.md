@@ -206,7 +206,7 @@ Si lo intentamos desde Burp podemos ver que ocurre lo siguiente...
 
 ![](/assets/images/WebHackingPlayground/img14.png)
 
-Nos lo hemos saltado y podemos ver que para acceder al usuario que está enviando el correo, se está usando lo siguiente: {{session.\['username'\]}} Puede que sea vulnerable a SSTI. Vamos a intentar primero visualizar el contenido del correo.
+Nos lo hemos saltado y podemos ver que para acceder al usuario que está enviando el correo, se está usando lo siguiente: \{\{session.\['username'\]\}\} Puede que sea vulnerable a SSTI. Vamos a intentar primero visualizar el contenido del correo.
 
 Voy a usar el siguiente script para recibir los correos.
 

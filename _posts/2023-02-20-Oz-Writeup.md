@@ -162,7 +162,7 @@ Las credenciales son validas en la web del puerto 8080. (wizard.oz:wizardofoz22)
 
 Una vez dentro veo un monton de "tickets" y ademas tengo la opción de crear tickets. Recordemos que la aplicacción web esta hecha con python, eso ya me hace pensar en inyección de plantillas.
 
-Si intento crear un ticket con el siguiente payload "{{7*7}}" obtengo 49
+Si intento crear un ticket con el siguiente payload "{{7\*7}}" obtengo 49
 
 ![](/assets/images/Oz/image7.png)
 

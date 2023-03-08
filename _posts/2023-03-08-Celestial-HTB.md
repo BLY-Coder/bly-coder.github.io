@@ -15,9 +15,11 @@ tags:
   - Linux                                                                                                                                                                                 
   - Writeup
   - Web-Enumeration
-  - Deserealization-Attack
-  - Crontab                                                                                                                                                                          >
+  - Deserialization-Attack
+  - Crontab                                                                                                                                                                                   
 ---
+
+
 
 En el día de hoy estaremos resolviendo la máquina Celestial de HackTheBox. Es una máquina Linux y su dirección IP es 10.10.10.85.
 

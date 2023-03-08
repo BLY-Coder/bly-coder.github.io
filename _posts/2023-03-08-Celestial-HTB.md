@@ -12,11 +12,11 @@ categories:
   - infosec
 tags:
   - ctf
-  - Linux                                                                                                                                                                                 
+  - Linux                         
   - Writeup
   - Web-Enumeration
   - Deserialization-Attack
-  - Crontab                                                                                                                                                                                   
+  - Crontab                       
 ---
 
 

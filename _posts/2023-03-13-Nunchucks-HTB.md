@@ -77,6 +77,8 @@ Al acceder a la página podemos ver una aplicación web que no nos permite hacer
 ![](/assets/images/Nunchucks/img1.png)
 
 El Log In está deshabilitado...
+
+
 ![](/assets/images/Nunchucks/img2.png)
 
 ### VHOST Discovery

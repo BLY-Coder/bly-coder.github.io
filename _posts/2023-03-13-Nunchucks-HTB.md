@@ -2,7 +2,7 @@
 layout: single
 title: Nunchucks HTB - WriteUp
 excerpt: WriteUp de la máquina Nunchucks de HTB.
-date: 2023-03-12
+date: 2023-03-13
 classes: wide
 header:
   teaser: /assets/images/Nunchucks/Nunchucks.png

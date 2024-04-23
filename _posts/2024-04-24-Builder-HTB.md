@@ -222,7 +222,7 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hash  ---> prinXXXXX
 
 
 Con esta password podemos iniciar sesión en la aplicación:
-![](/assets/images/Builder/pic1.png)
+![](/assets/images/Builder/pic2.png)
 
 Este post nos eneseña a dumpear las crendenciales que almacena jenkins.
 

@@ -59,6 +59,10 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 Al acceder al puerto 8080 podremos ver un Jenkins con la versión 2.441. 
 
+En el jenkins podemos ver que hay unas credenciales almacenadas.
+![](/assets/images/Builder/pic1.png)
+
+
 ### Explotación del CVE-2024-23897
 
 Si hacemos una búsqueda en google podemos ver como existe un CVE bastante reciente que permite leer ficheros del sistema de forma parcial
@@ -96,9 +100,6 @@ daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin: No such agent "daemon:x:1:1:dae
 sys:x:3:3:sys:/dev:/usr/sbin/nologin: No such agent "sys:x:3:3:sys:/dev:/usr/sbin/nologin" exists.
 sync:x:4:65534:sync:/bin:/bin/sync: No such agent "sync:x:4:65534:sync:/bin:/bin/sync" exists.
 ```
-
-En el jenkins podemos ver que hay unas credenciales almacenadas.
-![](/assets/images/Builder/pic1.png)
 
 
 

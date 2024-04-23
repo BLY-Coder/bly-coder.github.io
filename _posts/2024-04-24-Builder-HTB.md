@@ -2,7 +2,7 @@
 layout: single
 title: Builder HTB - WriteUp
 excerpt: WriteUp de la máquina Builder de HTB.
-date: 2024-04-24
+date: 2024-04-23
 classes: wide
 header:
   teaser: /assets/images/Builder/Builder.png

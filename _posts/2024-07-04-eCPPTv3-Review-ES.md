@@ -38,12 +38,13 @@ El examen eCPPTv3 consta de dos partes fundamentales:
 
 - **Cuestionario sobre el laboratorio**: Aquí se plantean preguntas directamente relacionadas con las actividades realizadas en el laboratorio práctico. La resolución precisa de estas preguntas depende de la habilidad del candidato para ejecutar con éxito las técnicas de pruebas de penetración.
 
-Una notable modificación en esta nueva versión es la eliminación del requisito de presentar un informe detallado de las actividades y hallazgos del examen. Personalmente, considero que esto puede ser una desventaja, ya que la habilidad de documentar y comunicar resultados es crucial en el campo de la ciberseguridad. ==Además, se ha reducido el énfasis en el pivoting dentro del laboratorio==.
+Una notable modificación en esta nueva versión es la eliminación del requisito de presentar un informe detallado de las actividades y hallazgos del examen. Personalmente, considero que esto puede ser una desventaja, ya que la habilidad de documentar y comunicar resultados es crucial en el campo de la ciberseguridad. Además, se ha reducido el énfasis en el pivoting dentro del laboratorio.
 
 ## Objetivos de la Certificación
 
 La certificación **eCPPTv3** tiene como objetivos principales:
 
+- **Hacer el Examen en 24 horas.**
 - Proporcionar un profundo entendimiento de los entornos de Active Directory y cómo explotarlos.
 - Desarrollar habilidades prácticas para llevar a cabo pruebas de penetración efectivas en redes corporativas.
 - Validar la capacidad del candidato para identificar y explotar vulnerabilidades en entornos reales.
@@ -54,9 +55,9 @@ La certificación **eCPPTv3** tiene como objetivos principales:
 
 La principal diferencia entre el **eCPPTv3** y su versión anterior, el **eCPPTv2**, radica en su enfoque:
 
-- **eCPPTv3**: Se centra predominantemente en la explotación de Active Directory, un componente crítico en muchas infraestructuras corporativas. Esto incluye técnicas avanzadas para comprometer el entorno de AD, escalar privilegios y moverse lateralmente dentro de la red.
+- **eCPPTv3**: Se centra predominantemente en la explotación de Active Directory, un componente crítico en muchas infraestructuras corporativas. Esto incluye técnicas avanzadas para comprometer el entorno de AD, escalar privilegios y moverse lateralmente dentro de la red. El examen dura 24 horas.
 
-- **eCPPTv2**: Por otro lado, el eCPPTv2 priorizaba el pivoting, es decir, la capacidad de utilizar un sistema comprometido como punto de entrada para alcanzar otros sistemas dentro de la red. Sin embargo, en el eCPPTv3, el pivoting ha sido reducido, poniendo mayor énfasis en las técnicas relacionadas con Active Directory.
+- **eCPPTv2**: Por otro lado, el eCPPTv2 priorizaba el pivoting, es decir, la capacidad de utilizar un sistema comprometido como punto de entrada para alcanzar otros sistemas dentro de la red. Sin embargo, en el eCPPTv3, el pivoting ha sido reducido, poniendo mayor énfasis en las técnicas relacionadas con Active Directory. El examen duraba 14 dias, una semana para hacer el lab y otra semana para hacer el reporte.
 
 Esta evolución refleja las necesidades actuales de seguridad, donde la protección y explotación de Active Directory juegan un papel crucial en la gestión de identidades y accesos en las organizaciones.
 

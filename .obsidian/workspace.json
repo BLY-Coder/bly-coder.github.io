@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-07-04-eCPPTv3-Review-EN.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -181,8 +181,8 @@
   },
   "active": "510440cf102311f8",
   "lastOpenFiles": [
-    "_posts/2024-07-04-eCPPTv3-Review-ES.md",
     "_posts/2023-03-01-Carrier-HTB.md",
+    "_posts/2024-07-04-eCPPTv3-Review-ES.md",
     "_posts/2024-07-04-eCPPTv3-Review-EN.md",
     "_posts/2024-04-24-Builder-HTB.md",
     "assets/images/ecpptv3-review/myecppt.png",

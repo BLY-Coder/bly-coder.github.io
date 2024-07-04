@@ -38,12 +38,13 @@ The eCPPTv3 exam consists of two main components:
 - **Lab Questions**: These questions are directly related to the activities performed in the practical lab. Successfully answering them depends on the candidate's proficiency in penetration testing techniques.
 
 
-A notable change in this new version is the removal of the requirement to submit a detailed report of exam activities and findings. Personally, I believe this could be a drawback as documenting and communicating results are crucial skills in cybersecurity. ==Additionally, there is less emphasis on pivoting within the lab environment.==
+A notable change in this new version is the removal of the requirement to submit a detailed report of exam activities and findings. Personally, I believe this could be a drawback as documenting and communicating results are crucial skills in cybersecurity. Additionally, there is less emphasis on pivoting within the lab environment.
 
 ## Certification Objectives
 
 The **eCPPTv3** certification aims to:
 
+- Finish the exam within 24 hours
 - Provide a deep understanding of Active Directory environments and how to exploit them.
 - Develop practical skills to conduct effective penetration tests in corporate networks.
 - Validate the candidate's ability to identify and exploit vulnerabilities in real-world environments.
@@ -54,9 +55,9 @@ The **eCPPTv3** certification aims to:
 
 The primary difference between **eCPPTv3** and its predecessor, **eCPPTv2**, lies in its focus:
 
-- **eCPPTv3**: Primarily focuses on Active Directory exploitation, a critical component in many corporate infrastructures. This includes advanced techniques to compromise AD environments, escalate privileges, and move laterally within networks.
+- **eCPPTv3**: Primarily focuses on Active Directory exploitation, a critical component in many corporate infrastructures. This includes advanced techniques to compromise AD environments, escalate privileges, and move laterally within networks. The test takes 24 hours.
 
-- **eCPPTv2**: In contrast, eCPPTv2 emphasized pivoting, using a compromised system as a springboard to reach other systems within the network. However, eCPPTv3 reduces this emphasis in favor of techniques related to Active Directory.
+- **eCPPTv2**: In contrast, eCPPTv2 emphasized pivoting, using a compromised system as a springboard to reach other systems within the network. However, eCPPTv3 reduces this emphasis in favor of techniques related to Active Directory. The exam lasted 14 days, one week to do the lab and another week to do the report.
    
 
 This evolution reflects current security needs where protecting and exploiting Active Directory plays a crucial role in identity and access management within organizations.

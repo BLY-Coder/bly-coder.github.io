@@ -60,10 +60,6 @@ Para reproducir este XSS reflejado, es necesario:
 
 Al hacerlo, el navegador del usuario ejecuta el script no autorizado, abriendo una ventana de alerta con las cookies de sesión del usuario.
 
-## Opinión Personal
-
-Desde mi experiencia, el eCPPTv3 es una certificación valiosa para aquellos interesados en especializarse en la explotación de Active Directory. La experiencia de laboratorio ofrece un aprendizaje práctico esencial para comprender y mitigar los riesgos asociados con AD en entornos corporativos.
-
 ## Recomendaciones para Mitigar el XSS
 
 Para resolver este tipo de problemas, los desarrolladores del sitio web deben implementar medidas como:

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d1a1f4eac26b26f0",
+        "id": "81081007d4831527",
         "type": "tabs",
         "children": [
           {
-            "id": "43195f33142713d5",
+            "id": "855965fc6181937e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,26 +20,14 @@
             }
           },
           {
-            "id": "510440cf102311f8",
+            "id": "a4b351ebab2d4c30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-07-04-eCPPTv3-Review-EN.md",
+                "file": "_posts/2024-07-04-XSS-En-Agencia-Tributaria.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9b0a4fc77516134f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-03-01-Carrier-HTB.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-07-04-eCPPTv3-Review-EN.md",
+                "file": "_posts/2024-07-04-XSS-En-Agencia-Tributaria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-07-04-eCPPTv3-Review-EN.md",
+                "file": "_posts/2024-07-04-XSS-En-Agencia-Tributaria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-07-04-eCPPTv3-Review-EN.md"
+                "file": "_posts/2024-07-04-XSS-En-Agencia-Tributaria.md"
               }
             }
           }
@@ -179,10 +167,18 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "510440cf102311f8",
+  "active": "a4b351ebab2d4c30",
   "lastOpenFiles": [
-    "_posts/2023-03-01-Carrier-HTB.md",
+    "assets/images/xss-agencia/poc3.png",
+    "assets/images/xss-agencia/1-22d5c6f6.png",
+    "assets/images/xss-agencia/poc3.webp",
+    "assets/images/xss-agencia/DALL·E 2024-09-09 15.36.52 - A clean and modern graphic design featuring the text 'XSS en Hacienda'. The design should evoke a sense of cybersecurity, with elements like a code sn.webp",
+    "assets/images/xss-agencia/poc2.png",
     "_posts/2024-07-04-eCPPTv3-Review-ES.md",
+    "_posts/2024-07-04-XSS-En-Agencia-Tributaria.md",
+    "assets/images/xss-agencia/poc1.png",
+    "assets/images/xss-agencia",
+    "_posts/2023-03-01-Carrier-HTB.md",
     "_posts/2024-07-04-eCPPTv3-Review-EN.md",
     "_posts/2024-04-24-Builder-HTB.md",
     "assets/images/ecpptv3-review/myecppt.png",
@@ -206,14 +202,9 @@
     "_posts/2023-02-19-Dev0ops-WriteUp.md",
     "assets/images/Builder/pic1.png",
     "_posts/2023-03-01-Blackfield-HTB.md",
-    "assets/images/Builder/Builder.png",
-    "assets/images/Builder/a0f6d6a08e0806448341587cd59450a6.png",
-    "Pasted image 20240423191310.png",
     "assets/images/Builder",
     "_posts/2023-02-26-Monteverde-HTB.md",
     "_posts/2023-03-04-Mango-HTB.md",
-    "assets/images/Celestial/Celestial.png",
-    "assets/images/Celestial/img4.png",
     "assets/images/Celestial",
     "assets/images/New Folder",
     "_posts/2023-03-06-WebHackingPlayground.md",
@@ -221,8 +212,6 @@
     "assets/images/WebHackingPlayground/img3.png.md",
     "assets/images/WebHackingPlayground",
     "_posts/2023-02-23-Querier-WriteUp.md",
-    "_posts/2023-02-22-Mantis-WriteUp.md",
-    "_posts/2023-02-22-Frankherby-WriteUp.md",
     "assets/images/Querier"
   ]
 }

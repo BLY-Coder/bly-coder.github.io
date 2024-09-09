@@ -30,7 +30,7 @@ El **XSS reflejado** ocurre cuando los datos proporcionados por un usuario se en
 El sitio de la Agencia Tributaria contaba con una URL vulnerable:
 
 ```python
-https://www12.agenciatributaria.gob.es/wlpl/ADHT-PRES/AccesoVideoasistencia?SRV=%3Cscript%3Ealert%28document.cookie%29%3C%2Fscript%3E
+https://www12.agenciatributaria.gob.es/REDACTED=%3Cscript%3Ealert%28document.cookie%29%3C%2Fscript%3E
 ```
 
 Al añadir un script malicioso en la URL, como el siguiente:

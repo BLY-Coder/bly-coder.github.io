@@ -125,8 +125,8 @@ from bs4 import BeautifulSoup
 url = 'https://URL/h6web/ha_datos_hermano.php'
 
 cookies = {
-    "PHPSESSID": "be52565aea157fd5a15b654338129b55"
-}
+    "PHPSESSID": "be52565aea157fd5a1512345b654338129b55"
+}q
 
 headers = {
     "Content-Type": "application/x-www-form-urlencoded"

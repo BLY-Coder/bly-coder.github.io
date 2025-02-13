@@ -87,7 +87,7 @@ from bs4 import BeautifulSoup
 url = 'https://URL/h6web/ha_datos_hermano.php'
 
 cookies = {
-    "PHPSESSID": "be52565aea157fd5a15b654338129b55"
+    "PHPSESSID": "be52565aea157fd5a15b6541456419b55"
 }
 
 headers = {

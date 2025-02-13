@@ -127,7 +127,7 @@ for i in range(1, 5):
 ```
 POST /h6web/ha_datos_hermano.php HTTP/2
 Host: URL
-Cookie: PHPSESSID=dcBd593c29b47b1a0b5c8e8aca9013
+Cookie: PHPSESSID=dcBd593c29b47b1123233
 Content-Length: 18
 Cache-Control: max-age=0
 Sec-Ch-Ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"

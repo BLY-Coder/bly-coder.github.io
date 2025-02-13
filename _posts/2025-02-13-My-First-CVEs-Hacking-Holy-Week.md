@@ -24,33 +24,42 @@ tags:
   - H6Web
 ---
 
-# My First CVEs Hacking Holy Week
+# 🎯 My First CVEs Hacking Holy Week
 
-## Introduction
+## 🌟 Introduction
 
-Recently, I discovered a security vulnerability in the H6Web web application, widely used by Religious Brotherhoods in Spain and similar organizations. This vulnerability is classified as Insecure Direct Object Reference (IDOR) and insecure permissions, allowing unauthorized access to confidential user information.
+I have always been interested in the way computer systems are managed in churches, confraternities, etc. So I decided to investigate and discover vulnerabilities.
 
-This finding has been officially recognized and assigned two CVEs (CVE-2025-1270 and CVE-2025-1271), marking an important milestone in my cybersecurity career.
+Recently, I discovered a security vulnerability in the web application **H6Web**, widely used by Cofradias in Spain and other similar organisations. This vulnerability is classified as _Insecure Direct Object Reference (IDOR)_ and insecure permissions, allowing unauthorised access to confidential user information.
 
-## What is a CVE?
+This finding has been officially recognised and assigned **two CVEs** (`CVE-2025-1270` and `CVE-2025-1271`), which marks an important milestone in my cybersecurity career.
 
-CVE (Common Vulnerabilities and Exposures) is a unique identifier assigned to a discovered security vulnerability in software or hardware. Its purpose is to provide a standard for researchers and organizations to track and reference vulnerabilities uniformly across various security databases and systems.
+## 🔍 What is a CVE?
 
-Each CVE includes a detailed description of the vulnerability, its impact, and possible solutions or mitigations. It is managed by MITRE Corporation in collaboration with the global security community.
+**CVE** (_Common Vulnerabilities and Exposures_) is a unique identifier assigned to a discovered security vulnerability in software or hardware. Its purpose is to provide a standard for researchers and organizations to track and reference vulnerabilities uniformly across various security databases and systems.
 
-## CVE Details and Official Links
+Each CVE includes:
+- 📝 A detailed description of the vulnerability
+- 💥 Its impact
+- 🛡️ Possible solutions or mitigations
 
-As confirmed by INCIBE, two CVEs have been assigned to these vulnerabilities in H6Web:
+It is managed by **MITRE Corporation** in collaboration with the global security community.
 
-- **CVE-2025-1270**: [INCIBE Report](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-h6web-de-grupo-anapi)
-- **CVE-2025-1271**: [INCIBE Report](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-h6web-de-grupo-anapi)
+## 📋 CVE Details and Official Links
 
-## Vulnerability Details
+As confirmed by **INCIBE**, two CVEs have been assigned to these vulnerabilities in H6Web:
 
-**Affected Application**: H6Web
-**Vulnerability Type**: Incorrect Access Control / Insecure Permissions (IDOR), Cross-Site Scripting (XSS)
-**Attack Type**: Remote
-**Impact**: Unauthorized access to authenticated users' sensitive information and possible JavaScript injection
+- 🔴 **CVE-2025-1270**: [INCIBE Report](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-h6web-de-grupo-anapi)
+- 🔴 **CVE-2025-1271**: [INCIBE Report](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-h6web-de-grupo-anapi)
+
+## ⚠️ Vulnerability Details
+
+| Category | Details |
+|----------|---------|
+| **Affected Application** | H6Web |
+| **Vulnerability Type** | _Incorrect Access Control / Insecure Permissions (IDOR), Cross-Site Scripting (XSS)_ |
+| **Attack Type** | Remote |
+| **Impact** | Unauthorized access to authenticated users' sensitive information and possible JavaScript injection |
 
 ## Technical Description
 
@@ -184,27 +193,28 @@ Priority: u=0
 pkrelacionado=4104
 ```
 
-### Security Recommendations
+### 🛠️ Security Recommendations
 
 To mitigate this vulnerability, implementing the following measures is recommended:
 
-1. **Permission Validation**: Verify that the authenticated user has rights to the requested resource before returning any information.
+1. 🔒 **Permission Validation**: Verify that the authenticated user has rights to the requested resource before returning any information.
 
-2. **Role-Based Access Control (RBAC)**: Implement a role-based access control system to clearly define who can access what information.
+2. 🔑 **Role-Based Access Control (RBAC)**: Implement a role-based access control system to clearly define who can access what information.
 
-3. **Activity Logging**: Monitor and log unusual or suspicious requests to detect attempts to exploit vulnerabilities.
+3. 📝 **Activity Logging**: Monitor and log unusual or suspicious requests to detect attempts to exploit vulnerabilities.
 
-4. **Regular Security Testing**: Conduct code audits and penetration testing to identify and correct vulnerabilities before they can be exploited.
+4. 🔍 **Regular Security Testing**: Conduct code audits and penetration testing to identify and correct vulnerabilities before they can be exploited.
 
-## Solution
+## ✅ Solution
 
 The Grupo Anapi team has implemented the following measures:
 
-1. The IDOR vulnerability has been completely disabled
-2. The XSS vulnerability has been fixed in the latest version
-3. All users are recommended to update to the latest version
+1. 🛑 The IDOR vulnerability has been completely disabled
+2. 🔄 The XSS vulnerability has been fixed in the latest version
+3. ⚡ All users are recommended to update to the latest version
 
-## Conclusion
+## 🎉 Conclusion
 
 This finding highlights the importance of implementing proper access controls in web applications. The assignment of two CVEs to these vulnerabilities reinforces the need to continue investigating and reporting security issues to make the Internet a safer place.
-My first CVEs, and many more to come!
+
+**My first CVEs, and many more to come!** 🚀

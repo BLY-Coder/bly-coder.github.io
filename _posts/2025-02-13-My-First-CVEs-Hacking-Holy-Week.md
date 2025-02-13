@@ -24,26 +24,21 @@ tags:
   - H6Web
 ---
 
-# 🎯 My First CVEs Hacking Holy Week
+# 🎯 The Holy Week is the Objective
 
-## 🌟 Introduction
+## 🔍 Introduction
 
-I have always been interested in the way computer systems are managed in churches, confraternities, etc. So I decided to investigate and discover vulnerabilities.
+> *I have always been interested in the way computer systems are managed in churches, confraternities, etc. So I decided to investigate and discover vulnerabilities.*
 
 Recently, I discovered a security vulnerability in the web application **H6Web**, widely used by Cofradias in Spain and other similar organisations. This vulnerability is classified as _Insecure Direct Object Reference (IDOR)_ and insecure permissions, allowing unauthorised access to confidential user information.
 
 This finding has been officially recognised and assigned **two CVEs** (`CVE-2025-1270` and `CVE-2025-1271`), which marks an important milestone in my cybersecurity career.
 
-## 🔍 What is a CVE?
+## 🏷️ What is a CVE?
 
 **CVE** (_Common Vulnerabilities and Exposures_) is a unique identifier assigned to a discovered security vulnerability in software or hardware. Its purpose is to provide a standard for researchers and organizations to track and reference vulnerabilities uniformly across various security databases and systems.
 
-Each CVE includes:
-- 📝 A detailed description of the vulnerability
-- 💥 Its impact
-- 🛡️ Possible solutions or mitigations
-
-It is managed by **MITRE Corporation** in collaboration with the global security community.
+Each CVE includes a detailed description of the vulnerability, its impact, and possible solutions or mitigations. It is managed by **MITRE Corporation** in collaboration with the global security community.
 
 ## 📋 CVE Details and Official Links
 
@@ -61,19 +56,19 @@ As confirmed by **INCIBE**, two CVEs have been assigned to these vulnerabilities
 | **Attack Type** | Remote |
 | **Impact** | Unauthorized access to authenticated users' sensitive information and possible JavaScript injection |
 
-## Technical Description
+## 🔬 Technical Description
 
-### CVE-2025-1270: IDOR Vulnerability
+### 🛑 CVE-2025-1270: IDOR Vulnerability
 
 An IDOR vulnerability has been identified in the endpoint:
 
-```
+```http
 /h6web/ha_datos_hermano.php
 ```
 
 The application does not validate if the authenticated user has permissions to access the data associated with the `pkrelacionado` parameter in a POST request. This allows an attacker to modify this parameter and access other users' information without restrictions.
 
-### CVE-2025-1271: Cross-Site Scripting (XSS) Reflected
+### 🛡️ CVE-2025-1271: Cross-Site Scripting (XSS) Reflected
 
 A Reflected XSS vulnerability exists in the following endpoint:
 
@@ -193,7 +188,7 @@ Priority: u=0
 pkrelacionado=4104
 ```
 
-### 🛠️ Security Recommendations
+### 🛡️ Security Recommendations
 
 To mitigate this vulnerability, implementing the following measures is recommended:
 
@@ -209,9 +204,9 @@ To mitigate this vulnerability, implementing the following measures is recommend
 
 The Grupo Anapi team has implemented the following measures:
 
-1. 🛑 The IDOR vulnerability has been completely disabled
-2. 🔄 The XSS vulnerability has been fixed in the latest version
-3. ⚡ All users are recommended to update to the latest version
+- ✔️ The IDOR vulnerability has been completely disabled
+- ✔️ The XSS vulnerability has been fixed in the latest version
+- ✔️ All users are recommended to update to the latest version
 
 ## 🎉 Conclusion
 

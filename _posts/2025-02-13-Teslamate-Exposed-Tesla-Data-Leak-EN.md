@@ -83,10 +83,8 @@ The results have been alarming:
 
 In the following video I show the complete search and analysis process:
 
-
-![test](/assets/images/teslamate-exposed/video.mov)
 <video width="560" height="315" controls>
-  <source src="/assets/images/teslamate-exposed/video.mov" type="video/quicktime">
+  <source src="/assets/images/teslamate-exposed/video.mp4" type="video/quicktime">
   Your browser does not support the video element.
 </video>
 

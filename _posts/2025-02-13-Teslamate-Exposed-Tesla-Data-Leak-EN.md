@@ -83,10 +83,16 @@ The results have been alarming:
 
 In the following video I show the complete search and analysis process:
 
+
+![test](/assets/images/teslamate-exposed/video.mov)
 <video width="560" height="315" controls>
-  <source src="/assets/images/teslamate-exposed/Grabación de pantalla 2025-08-20 a las 19.09.59.mov" type="video/quicktime">
+  <source src="/assets/images/teslamate-exposed/video.mov" type="video/quicktime">
   Your browser does not support the video element.
 </video>
+
+If you cant see the video:
+![Búsqueda de instalaciones expuestas](/assets/images/teslamate-exposed/image.png)
+
 
 ## Risks for Owners
 

@@ -84,11 +84,11 @@ Los resultados han sido alarmantes:
 En el siguiente video muestro el proceso completo de búsqueda y análisis:
 
 <video width="560" height="315" controls>
-  <source src="/assets/images/teslamate-exposed/video.mp4" type="video/quicktime">
+  <source src="/assets/images/teslamate-exposed/video.mp4" type="video/mp4">
   Tu navegador no soporta el elemento video.
 </video>
 
-Si no puedes ver el video te dejo una foto
+Si no puedes ver el video:
 ![Búsqueda de instalaciones expuestas](/assets/images/teslamate-exposed/image.png)
 
 ## Riesgos para los Propietarios

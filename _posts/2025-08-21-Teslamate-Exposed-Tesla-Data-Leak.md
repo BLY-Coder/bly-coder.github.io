@@ -2,7 +2,7 @@
 layout: single
 title: "Teslamate Expuesto: Cuando los Datos de tu Tesla Están al Descubierto"
 excerpt: Análisis de cómo las instalaciones mal configuradas de Teslamate están exponiendo datos sensibles de miles de vehículos Tesla en internet, incluyendo ubicaciones, hábitos de conducción y patrones de vida.
-date: 2025-02-13
+date: 2025-08-20
 classes: wide
 header:
   teaser: /assets/images/teslamate-exposed/tesla.png

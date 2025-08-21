@@ -2,7 +2,7 @@
 layout: single
 title: "Firebase Exposed: When Insecure Configurations Compromise Educational Platforms"
 excerpt: Analysis of critical vulnerabilities in Firebase configurations that allow user data manipulation, personal information exposure, and unauthorized access to scoring systems.
-date: 2025-08-212025-08-21
+date: 2025-08-21
 classes: wide
 header:
   teaser: /assets/images/firebase-exposed/logo.jpeg

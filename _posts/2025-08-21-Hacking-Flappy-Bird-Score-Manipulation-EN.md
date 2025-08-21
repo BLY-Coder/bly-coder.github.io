@@ -2,7 +2,7 @@
 layout: single
 title: "Hacking Flappy Bird: How to Manipulate Scores Without Playing"
 excerpt: Vulnerability analysis in the popular online Flappy Bird game that allows score manipulation through direct HTTP requests, completely bypassing game logic.
-date: 2025-08-21
+date: 2025-08-22
 classes: wide
 header:
   teaser: /assets/images/flappy-bird-hack/logo.jpeg

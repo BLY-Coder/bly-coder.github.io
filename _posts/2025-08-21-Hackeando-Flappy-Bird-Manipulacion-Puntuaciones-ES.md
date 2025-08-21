@@ -2,7 +2,7 @@
 layout: single
 title: "Hackeando Flappy Bird: Cómo Manipular Puntuaciones sin Jugar"
 excerpt: Análisis de vulnerabilidad en el popular juego Flappy Bird online que permite manipular puntuaciones mediante requests HTTP directas, burlando completamente la lógica del juego.
-date: 2025-08-22
+date: 2025-08-21
 classes: wide
 header:
   teaser: /assets/images/flappy-bird-hack/logo.jpeg

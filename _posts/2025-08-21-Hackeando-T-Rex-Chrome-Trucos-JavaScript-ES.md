@@ -2,7 +2,7 @@
 layout: single
 title: "Hackeando el T-Rex Runner en trex-runner.com: Entendiendo y Evadiendo el Sistema Anti-Trampas"
 excerpt: Guía completa para manipular el juego T-Rex Runner en trex-runner.com usando JavaScript, incluyendo cómo establecer puntuaciones específicas, evitar el sistema anti-trampas y entender cómo el servidor detecta manipulaciones en las tablas de clasificación online.
-date: 2025-08-23
+date: 2025-08-21
 classes: wide
 header:
   teaser: /assets/images/trex-hack/logo.jpeg

@@ -2,7 +2,7 @@
 layout: single
 title: "Hacking T-Rex Runner on trex-runner.com: Understanding and Bypassing Anti-Cheat Systems"
 excerpt: Complete guide to manipulating the T-Rex Runner game on trex-runner.com using JavaScript, including how to set specific scores, bypass anti-cheat systems, and understand how servers detect manipulations in online leaderboards.
-date: 2025-08-23
+date: 2025-08-21
 classes: wide
 header:
   teaser: /assets/images/trex-hack/logo.jpeg

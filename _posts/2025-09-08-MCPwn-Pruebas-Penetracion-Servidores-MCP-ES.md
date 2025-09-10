@@ -5,8 +5,8 @@ excerpt: "Descubre MCPwn, una herramienta integral de pruebas de seguridad dise√
 date: 2025-09-08
 classes: wide
 header:
-  teaser: /assets/images/mcpwn/logo.png
-  icon: /assets/images/mcpwn/logo.png
+  teaser: /assets/images/xss-mcpwn/logo.jpeg
+  icon: /assets/images/xss-mcpwn/logo.jpeg
   teaser_home_page: true
   
 categories:

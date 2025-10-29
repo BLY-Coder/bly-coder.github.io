@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser: /assets/images/shushi/shushi.png
   teaser_home_page: true
-  icon:/assets/images/shushi/shushi.png
+  icon: /assets/images/shushi/Swagger.png
 categories:
   - Review
   - Infosec

@@ -2,7 +2,7 @@
 layout: single
 title: "Mi primer lab de hacking IoT en casa"
 excerpt: "Montando un laboratorio práctico de pentesting IoT con ESP32, sensores DHT11 y MQTT para reproducir escenarios reales de auditoría, desde la extracción de firmware hasta ataques de spoofing de datos."
-date: 2025-17-12
+date: 2025-12-17
 classes: wide
 header:
   teaser: /assets/images/iot-lab/esp32-lab.png 

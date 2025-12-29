@@ -2,7 +2,7 @@
 layout: single
 title: Hacking de Router Nucom NJ-3R - Autenticación Basada en IP sin Validación
 excerpt: Descubrimiento de múltiples vulnerabilidades en router Nucom NJ-3R durante unas vacaciones.
-date: 2025-12-28
+date: 2025-29-12
 classes: wide
 header:
   teaser: /assets/images/Router-ClickTel/logo.png
